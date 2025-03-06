@@ -157,6 +157,7 @@ main{
 
 .contenedor-tarjetas{
   display: flex;
+  flex-direction: row;
   gap: 20px;
   justify-content: center;
   margin: 100px 0px 80px;
@@ -171,7 +172,7 @@ main{
 }
 
 .tarjeta-gris{
-  width: 580px;
+  max-width: 580px;
   height: 600px;
   border-radius: 15px;
   background-color: var(--gris);
@@ -191,15 +192,18 @@ main{
 }
 
 .ch-tarjeta .btn-negro{
-  padding: 12px 36px;
+  padding: 12px 30  px;
 }
 
 .ch-tarjeta p{
+  width: 400px;
   font-size: 20px;
   line-height: 28px;
   font-weight: 400;
 }
-
+.ch-tarjeta .titulo-tarjeta{
+  text-align: start;
+}
 
 .titulo-tarjeta{
   color: var(--negro);
@@ -208,6 +212,7 @@ main{
   font-weight: 600;
   text-align: center;
   margin-bottom: 17px;
+  width: 400px;
 }
 
 .btn-negro{
